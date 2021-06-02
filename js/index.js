@@ -81,5 +81,16 @@ bottomContentH4[1].textContent = "Product";
 bottomContentH4[2].textContent = "Vision";
 
 //p text content
-let topContentP = document.querySelectorAll(".text-content p");
-console.log("topP", topContentP);
+let textContentP = document.querySelectorAll(".text-content p");
+console.log("textP", textContentP);
+
+textContentP[0].textContent =
+  "Features content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+textContentP[1].textContent =
+  "About content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+textContentP[2].textContent =
+  "Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+textContentP[3].textContent =
+  "Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+textContentP[4].textContent =
+  "Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
