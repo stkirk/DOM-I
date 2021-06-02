@@ -58,11 +58,16 @@ navItems[5].textContent = "Contact";
 
 //Update section .cta content
 let topSectionH1 = document.querySelector(".cta-text h1");
-topSectionH1.textContent = "DOM Is Awesome";
+topSectionH1.innerHTML = "DOM<br>Is<br>Awesome";
 
+// console.log("Split", topSectionH1.textContent.split(" ").join("<br>"));
+//couldn't get split and join to work
+
+//button
 let topSectionButton = document.querySelector(".cta-text button");
 topSectionButton.textContent = "Get Started";
 
+//top img
 let topSectionImg = document.querySelector("#cta-img");
 topSectionImg.src = "img/header-img.png";
 
