@@ -110,3 +110,7 @@ console.log("contactP", contactP);
 contactP[0].innerHTML = "123 Way 456 Street <br> Somewhere, USA";
 contactP[1].textContent = "1 (888) 888-8888";
 contactP[2].textContent = "sales@greatidea.io";
+
+//footer
+let footer = document.querySelector("footer p");
+footer.textContent = "Copyright Great Idea! 2018";
