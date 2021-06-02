@@ -94,3 +94,11 @@ textContentP[3].textContent =
   "Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
 textContentP[4].textContent =
   "Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+
+//middle img
+let middleImg = document.querySelector("#middle-img");
+middleImg.src = "img/mid-page-accent.jpg";
+
+// contact h4
+let contactH4 = document.querySelector(".contact h4");
+contactH4.textContent = "Contact";
