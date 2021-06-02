@@ -107,10 +107,6 @@ contactH4.textContent = "Contact";
 let contactP = document.querySelectorAll(".contact p");
 console.log("contactP", contactP);
 
-//insert address line break
-let addressBr = document.createElement("br");
-console.log("line break", addressBr);
-
-contactP[0].textContent = "123 Way 456 Street Somewhere, USA";
+contactP[0].innerHTML = "123 Way 456 Street <br> Somewhere, USA";
 contactP[1].textContent = "1 (888) 888-8888";
 contactP[2].textContent = "sales@greatidea.io";
