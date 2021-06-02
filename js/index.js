@@ -46,6 +46,10 @@ const siteContent = {
 let logo = document.getElementById("logo-img");
 logo.setAttribute("src", siteContent["nav"]["img-src"]);
 
+// Update title
+let title = document.querySelector("title");
+title.textContent = "Great Idea!";
+
 //Update nav links
 let navItems = document.querySelectorAll("nav a");
 console.log("navItems", navItems);
