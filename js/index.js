@@ -48,7 +48,7 @@ logo.setAttribute("src", siteContent["nav"]["img-src"]);
 
 //Update nav links
 let navItems = document.querySelectorAll("nav a");
-console.log(navItems);
+console.log("navItems", navItems);
 navItems[0].textContent = "Services";
 navItems[1].textContent = "Product";
 navItems[2].textContent = "Vision";
@@ -67,3 +67,19 @@ let topSectionImg = document.querySelector("#cta-img");
 topSectionImg.src = "img/header-img.png";
 
 //.main-content section
+
+//h4 text content
+let topContentH4 = document.querySelectorAll(".top-content h4");
+console.log("topH4", topContentH4);
+topContentH4[0].textContent = "Features";
+topContentH4[1].textContent = "About";
+
+let bottomContentH4 = document.querySelectorAll(".bottom-content h4");
+console.log("bottomH4", bottomContentH4);
+bottomContentH4[0].textContent = "Services";
+bottomContentH4[1].textContent = "Product";
+bottomContentH4[2].textContent = "Vision";
+
+//p text content
+let topContentP = document.querySelectorAll(".text-content p");
+console.log("topP", topContentP);
