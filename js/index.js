@@ -102,3 +102,15 @@ middleImg.src = "img/mid-page-accent.jpg";
 // contact h4
 let contactH4 = document.querySelector(".contact h4");
 contactH4.textContent = "Contact";
+
+// contact p
+let contactP = document.querySelectorAll(".contact p");
+console.log("contactP", contactP);
+
+//insert address line break
+let addressBr = document.createElement("br");
+console.log("line break", addressBr);
+
+contactP[0].textContent = "123 Way 456 Street Somewhere, USA";
+contactP[1].textContent = "1 (888) 888-8888";
+contactP[2].textContent = "sales@greatidea.io";
