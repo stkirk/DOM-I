@@ -80,14 +80,14 @@ topSectionImg.src = siteContent.cta["img-src"];
 //h4 text content
 let topContentH4 = document.querySelectorAll(".top-content h4");
 console.log("topH4", topContentH4);
-topContentH4[0].textContent = "Features";
-topContentH4[1].textContent = "About";
+topContentH4[0].textContent = siteContent["main-content"]["features-h4"];
+topContentH4[1].textContent = siteContent["main-content"]["about-h4"];
 
 let bottomContentH4 = document.querySelectorAll(".bottom-content h4");
 console.log("bottomH4", bottomContentH4);
-bottomContentH4[0].textContent = "Services";
-bottomContentH4[1].textContent = "Product";
-bottomContentH4[2].textContent = "Vision";
+bottomContentH4[0].textContent = siteContent["main-content"]["services-h4"];
+bottomContentH4[1].textContent = siteContent["main-content"]["product-h4"];
+bottomContentH4[2].textContent = siteContent["main-content"]["vision-h4"];
 
 //p text content
 let textContentP = document.querySelectorAll(".text-content p");
