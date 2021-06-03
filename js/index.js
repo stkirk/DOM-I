@@ -93,20 +93,15 @@ bottomContentH4[2].textContent = siteContent["main-content"]["vision-h4"];
 let textContentP = document.querySelectorAll(".text-content p");
 console.log("textP", textContentP);
 
-textContentP[0].textContent =
-  "Features content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
-textContentP[1].textContent =
-  "About content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
-textContentP[2].textContent =
-  "Services content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
-textContentP[3].textContent =
-  "Product content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
-textContentP[4].textContent =
-  "Vision content elementum magna eros, ac posuere elvit tempus et. Suspendisse vel tempus odio, in interdutm nisi. Suspendisse eu ornare nisl. Nullam convallis augue justo, at imperdiet metus scelerisque quis.";
+textContentP[0].textContent = siteContent["main-content"]["features-content"];
+textContentP[1].textContent = siteContent["main-content"]["about-content"];
+textContentP[2].textContent = siteContent["main-content"]["services-content"];
+textContentP[3].textContent = siteContent["main-content"]["product-content"];
+textContentP[4].textContent = siteContent["main-content"]["vision-content"];
 
 //middle img
 let middleImg = document.querySelector("#middle-img");
-middleImg.src = "img/mid-page-accent.jpg";
+middleImg.src = siteContent["main-content"]["middle-img-src"];
 
 // contact h4
 let contactH4 = document.querySelector(".contact h4");
