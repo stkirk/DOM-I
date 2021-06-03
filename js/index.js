@@ -69,11 +69,11 @@ topSectionH1.innerHTML = "DOM<br>Is<br>Awesome";
 
 //button
 let topSectionButton = document.querySelector(".cta-text button");
-topSectionButton.textContent = "Get Started";
+topSectionButton.textContent = siteContent.cta.button;
 
 //top img
 let topSectionImg = document.querySelector("#cta-img");
-topSectionImg.src = "img/header-img.png";
+topSectionImg.src = siteContent.cta["img-src"];
 
 //.main-content section
 
