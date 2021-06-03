@@ -105,16 +105,16 @@ middleImg.src = siteContent["main-content"]["middle-img-src"];
 
 // contact h4
 let contactH4 = document.querySelector(".contact h4");
-contactH4.textContent = "Contact";
+contactH4.textContent = siteContent.contact["contact-h4"];
 
 // contact p
 let contactP = document.querySelectorAll(".contact p");
 console.log("contactP", contactP);
 
 contactP[0].innerHTML = "123 Way 456 Street <br> Somewhere, USA";
-contactP[1].textContent = "1 (888) 888-8888";
-contactP[2].textContent = "sales@greatidea.io";
+contactP[1].textContent = siteContent.contact.phone;
+contactP[2].textContent = siteContent.contact.email;
 
 //footer
 let footer = document.querySelector("footer p");
-footer.textContent = "Copyright Great Idea! 2018";
+footer.textContent = siteContent.footer.copyright;
