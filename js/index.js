@@ -53,12 +53,12 @@ title.textContent = "Great Idea!";
 //Update nav links
 let navItems = document.querySelectorAll("nav a");
 console.log("navItems", navItems);
-navItems[0].textContent = "Services";
-navItems[1].textContent = "Product";
-navItems[2].textContent = "Vision";
-navItems[3].textContent = "Features";
-navItems[4].textContent = "About";
-navItems[5].textContent = "Contact";
+navItems[0].textContent = siteContent.nav["nav-item-1"];
+navItems[1].textContent = siteContent.nav["nav-item-2"];
+navItems[2].textContent = siteContent.nav["nav-item-3"];
+navItems[3].textContent = siteContent.nav["nav-item-4"];
+navItems[4].textContent = siteContent.nav["nav-item-5"];
+navItems[5].textContent = siteContent.nav["nav-item-6"];
 
 //Update section .cta content
 let topSectionH1 = document.querySelector(".cta-text h1");
